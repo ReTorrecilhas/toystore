@@ -17,10 +17,11 @@ body {
 
 .topoint {
     width: 100%;
-    max-width: 1040px;
+    max-width:1550px;
     height: 30px;
     margin: auto;
-    position: absolute;
+     
+    
 
 }
 
@@ -63,15 +64,17 @@ body {
     width: 100%;
     height: 80px;
     box-shadow: 6px 6px 2em #e1dfdf;
-    position: absolute;
+   
     
 
 }
 
 .topoint2 {
     width: 100%;
+    max-width: 1550px;
     height: 80px;
-    position: absolute;
+    margin:auto;
+    
 
 }
 
