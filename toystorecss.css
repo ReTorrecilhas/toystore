@@ -1,0 +1,329 @@
+body {
+    margin: auto;
+
+
+
+
+}
+
+.topo {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(116, 183, 16);
+    
+    
+
+}
+
+.topoint {
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+    position: absolute;
+
+}
+
+.topoleft {
+    width: 50%;
+    height: 30px;
+    float: left;
+    position: relative;
+    
+}
+
+.topoleft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topoleft li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: px;
+    margin-right: 15px;
+}
+
+.topo li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.toporight {
+    float: right;
+    height: 30px;
+    text-align: right;
+    margin-top: 4px;
+
+}
+
+.topo2 {
+    width: 100%;
+    height: 80px;
+    box-shadow: 6px 6px 2em #e1dfdf;
+    position: absolute;
+    
+
+}
+
+.topoint2 {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+
+}
+
+.left2 {
+    width: 50%;
+    height: 80px;
+    float: left;
+    margin: auto;
+}
+
+.left2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left2 li {
+    height: 30px;
+    line-height: 80px;
+    float: left;
+    margin-left: 170px;
+    margin-right: -110px;
+
+}
+
+.colormouse:hover {
+    background-color: rgba(224, 218, 218, 0.549);
+
+
+}
+
+.colormouse {
+    border-radius: 10px;
+    padding: 13%;
+}
+
+
+
+
+
+
+.left2 li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.left2 li:first-child {
+    font-size: 25px;
+}
+
+.right2 {
+    width: 50%;
+    height: 80px;
+    float: right;
+    margin: auto;
+    position: relative;
+    
+
+
+
+}
+
+.right2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.right2 li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    height: 30px;
+    line-height: 80px;
+    margin-right: 10px;
+}
+
+
+.cart {
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.blockall {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+div .leftblockorange {
+    background-color: rgb(255, 191, 0);
+    width: 500px;
+    height: 135px;
+    border-radius: 20px;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+
+div .rightblockpink {
+
+    background-color: rgb(208, 84, 126);
+    width: 500px;
+    height: 135px;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 20px;
+
+}
+
+
+.ted {
+    margin-top: -80px;
+    padding-left: 20px;
+    position: absolute;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.ted:hover {
+    transform: scale(1.1)
+}
+
+.toyts {
+    margin-top: -75px;
+    margin-left: 290px;
+    position: absolute;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+
+
+.toyts:hover {
+    transform: scale(1.1)
+}
+
+.botao {
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 75px;
+
+}
+
+.botao:hover {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    transform: scale(1.1)
+}
+
+.botao a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.pelúcia {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.botao2 {
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 155px;
+}
+
+.botao2:hover {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    transform: scale(1.1);
+
+}
+
+.botao2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.beduca {
+    position: absolute;
+
+    color: white;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 26px;
+
+}
+
+.blockbottom {
+    margin-top: 300px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+.bottomrleft {
+    width: 50%;
+    height: 50px;
+
+}
+
+.bottomleftpelucia {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-left: 160px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.bottomright {
+    
+    width: 50%;
+    float: right;
+    height: 50px;
+}  
+
+.bottomrightpelucia {
+    position: absolute;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 330px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
