@@ -1,2 +1,2 @@
 # toystore
-Projeto de loja para o público infantil
+Projeto web, loja de brinquedos e pelúcias.
