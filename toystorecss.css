@@ -9,15 +9,15 @@ body {
 .topo {
     width: 100%;
     height: 30px;
-    background-color: rgb(116, 183, 16);    
+    background-color: rgb(116, 183, 16);
 }
 
 .topoint {
     width: 100%;
-    max-width:1550px;
+    max-width: 1550px;
     height: 30px;
     margin: auto;
-       
+
 
 }
 
@@ -26,7 +26,7 @@ body {
     height: 30px;
     float: left;
     position: relative;
-    
+
 }
 
 .topoleft ul {
@@ -60,8 +60,8 @@ body {
     width: 100%;
     height: 80px;
     box-shadow: 6px 6px 2em #e1dfdf;
-   
-    
+
+
 
 }
 
@@ -69,8 +69,8 @@ body {
     width: 100%;
     max-width: 1550px;
     height: 80px;
-    margin:auto;
-    
+    margin: auto;
+
 
 }
 
@@ -128,9 +128,6 @@ body {
     float: right;
     margin: auto;
     position: relative;
-    
-
-
 
 }
 
@@ -161,7 +158,6 @@ body {
     position: absolute;
     width: 100%;
     height: 300px;
-    margin-left: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,11 +305,11 @@ div .rightblockpink {
 }
 
 .bottomright {
-    
+
     width: 50%;
     float: right;
     height: 50px;
-}  
+}
 
 .bottomrightpelucia {
     position: absolute;
@@ -324,4 +320,34 @@ div .rightblockpink {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.blockallcart {
+    width: 100%;
+    height: 370px;
+    margin-top: 430px;
+    display: flex;
+    justify-content: center;
+
+}
+
+div .container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+    width: 210px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 8px 5em #e1dfdf;
+    
+}
+
+
+
+
+
 
