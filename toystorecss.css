@@ -26,6 +26,7 @@ body {
     height: 30px;
     float: left;
     position: relative;
+    padding-left: 175px;
 
 }
 
@@ -53,6 +54,7 @@ body {
     height: 30px;
     text-align: right;
     margin-top: 4px;
+    padding-right: 155px;
 
 }
 
@@ -343,11 +345,23 @@ div .container-1,
     display: inline-block;
     background-color: rgb(255, 255, 255);
     box-shadow: 6px 8px 5em #e1dfdf;
-    
+    perspective: 800px;
+
 }
 
+.animaiscardint {
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 150px;
+    height: 150px;
 
+}
 
+.animaiscardintmonster {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 150px;
+    height: 175px;
+    display: flex;
 
-
-
+}
