@@ -163,7 +163,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 60px;
+
 
 }
 
@@ -330,6 +331,8 @@ div .rightblockpink {
     display: flex;
     justify-content: center;
 
+
+
 }
 
 div .container-1,
@@ -345,23 +348,23 @@ div .container-1,
     display: inline-block;
     background-color: rgb(255, 255, 255);
     box-shadow: 6px 8px 5em #e1dfdf;
-    perspective: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .animaiscardint {
-    padding-top: 50px;
-    padding-left: 30px;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
 
 }
 
-.animaiscardintmonster {
-    padding-top: 30px;
-    padding-left: 30px;
-    width: 150px;
-    height: 175px;
-    display: flex;
 
+div .container-1:hover,
+.container-2:hover,
+.container-3:hover,
+.container-4:hover,
+.container-5:hover {
+    transform: scale(1.1);
 }
